@@ -43,14 +43,15 @@ The repository includes MATLAB routines for:
 
 ## Files
 
+- `calc_interChannel.m`  
+  Computes the EGN-model interaction coefficients using Monte-Carlo integration.
+
 - `run_scenario1_PS_in_COI.m`  
   Reproduces Figs. 2 and 3 of the paper, where probabilistic shaping is applied only to the channel of interest.
 
 - `run_scenario2_PS_all_WDM.m`  
   Reproduces Figs. 4 and 5 of the paper, where probabilistic shaping is applied to all WDM channels.
 
-- `calc_interChannel.m`  
-  Computes the EGN-model interaction coefficients using Monte-Carlo integration.
 
 ## Requirements
 
