@@ -3,7 +3,7 @@
 [![IEEE](https://img.shields.io/badge/IEEE-9827181-00629B.svg)](https://ieeexplore.ieee.org/document/9827181/)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-## MATLAB Codes for On the Impact of Probabilistic Shaping on Fiber Nonlinearities
+## MATLAB Codes for the paper "On the Impact of Probabilistic Shaping on Fiber Nonlinearities".
 
 This repository contains the MATLAB simulation codes used to reproduce the main numerical results of the paper:
 
