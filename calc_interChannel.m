@@ -1,4 +1,4 @@
-%% Evaluating nonlinear impairments in optical-fiber channel by implementing the EGN model 
+% Evaluating nonlinear impairments in optical-fiber channel by implementing the EGN model 
 
 function [gn_chi1,chi11,chi21,chi13,chi23,chi14,chi24,chi34,NLIN_var...
     ,NLIN_var_12,NLIN_var_3,NLIN_var_4] = ...
@@ -6,7 +6,7 @@ function [gn_chi1,chi11,chi21,chi13,chi23,chi14,chi24,chi34,NLIN_var...
 R = 2*pi*(rand(5, N)-0.5*ones(5, N));
 
 Volume = (2*pi)^4;
-%% calculate chi1
+% calculate chi1
 gn_chi1=zeros(n_ch,n_ch,n_ch,3);
 chi11=zeros(n_ch,n_ch,n_ch,3);
 chi21=zeros(n_ch,n_ch,n_ch,3);
@@ -15,7 +15,7 @@ chi23=zeros(n_ch,n_ch,n_ch,3);
 chi14=zeros(n_ch,n_ch,n_ch,3);
 chi24=zeros(n_ch,n_ch,n_ch,3);
 chi34=zeros(n_ch,n_ch,n_ch,3);
-%% GN_term
+% GN_term
 for l=-1:1
     for n1=1:n_ch
         for n2=n1:n_ch
@@ -76,7 +76,7 @@ for l=-1:1
         
     end
 end
-%% EGN term f1
+% EGN term f1
 %     % for n=1:n_ch
 for l=-1:1
     for n1=1:n_ch
@@ -113,7 +113,7 @@ for l=-1:1
 end
 % end
 %
-% %
+% 
 for l=-1:1
     for n=2:n_ch
         chi11(2:n_ch,2:n_ch,n,l+2)=chi11(1:n_ch-1,1:n_ch-1,n-1,l+2);
@@ -177,7 +177,7 @@ for l=-1:1
 end
 
 NLIN_var_12=chi11+((kur-2)*chi21);
-%% EGN term f3
+% EGN term f3
 for n=1:n_ch
     for l=-1:1
         for n1=1:n_ch
@@ -210,7 +210,7 @@ for n=1:n_ch
 end
 
 NLIN_var_3=chi13+((kur-2)*chi23);
-%% EGN_term SCI&X4
+% EGN_term SCI&X4
 for n=1:n_ch
     for l=-1:1
         for n1=1:n_ch
