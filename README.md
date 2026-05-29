@@ -10,7 +10,7 @@ This repository contains the MATLAB simulation codes used to reproduce the main 
 **On the Impact of Probabilistic Shaping on Fiber Nonlinearities**  
 Ahmad Tanha, Hami Rabbani, and Lotfollah Beygi  
 
-The paper was presented at the 2022 30th International Conference on Electrical Engineering (ICEE).
+The paper was presented at the IEEE 30th International Conference on Electrical Engineering (ICEE), May 2022.
 
 The paper is available online on IEEE Xplore:
 
